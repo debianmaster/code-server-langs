@@ -1,6 +1,0 @@
-FROM codercom/code-server
-USER root
-RUN apt update && \
-    install nodejs npm && \
-    apt-get clean  
-USER 1000
